@@ -1,0 +1,11 @@
+﻿<Window x:Class="RevitPlugin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Revit Plugin" Height="350" Width="525">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox x:Name="inputTextBox" Text="你要做什么..." Margin="0 0 0 10"/>
+            <Button Content="执行" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
